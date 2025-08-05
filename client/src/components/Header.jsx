@@ -1,4 +1,5 @@
 import { FaRegUserCircle } from "react-icons/fa";
+import { Link } from "react-router-dom";
 function Header(){
     let isLoggedIn = false; // This should be replaced with actual authentication logic
     return (
@@ -7,8 +8,8 @@ function Header(){
                 Basic Registration App
             </h1>
             <ul className="flex flex-row items-center justify-center space-x-4 mt-4 mb-4">
-                <li>Home</li>
-                <li>Registration form</li>
+                <Link to="/">Home</Link>
+                <Link to="/register">Registration form</Link>
                 <li>Admin View</li>
             </ul>
             <div className="flex flex-col items-center justify-center space-x-2 m-4">
