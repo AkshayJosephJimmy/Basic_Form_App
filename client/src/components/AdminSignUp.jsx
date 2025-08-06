@@ -19,11 +19,13 @@ function handleSubmit(e) {
         setUsername("");
         setEmail("");
         setPassword("");
+         alert("registered successful!");
         navigate('/signin'); // Redirect to login page after successful signup
         
     })
     .catch((error) => {
         console.error("Error registering admin:", error);
+        
         // Handle error appropriately, e.g., show an error message to the user
     });
 }
