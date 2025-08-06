@@ -26,7 +26,7 @@ return(
   <div className="bg-red-100 border border-red-400 text-red-700 p-3 rounded mb-4">
     <strong>Note:</strong> To view the detalis in{" "}
     <span className="font-semibold">Admin Panel</span>, you must first
-    register and then sign in with your credentials.
+    register and then LOGIN in with your credentials.
   </div>
 
   <button className="bg-amber-100 px-4 py-2 rounded shadow">
