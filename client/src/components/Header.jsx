@@ -14,7 +14,7 @@ function Header(){
             </ul>
             <div className="flex flex-col items-center justify-center space-x-2 m-4">
 
-            <FaRegUserCircle className="h-8 w-8"/>
+            <Link to={'/signin'}><FaRegUserCircle className="h-8 w-8"/></Link>
             {isLoggedIn?<p>name</p>:<p>Admin Login</p>}
             </div>
 
